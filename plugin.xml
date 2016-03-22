@@ -47,6 +47,8 @@
         <header-file src="src/ios/libs/WBSDKRelationshipButton.h" />
         <header-file src="src/ios/libs/WBSDKCommentButton.h" />
         <header-file src="src/ios/libs/WBSDKBasicButton.h" />
+        <header-file src="src/ios/libs/WBHttpRequest+WeiboGame.h" />
+        <header-file src="src/ios/libs/WeiboSDK+Statistics.h" />
         <source-file src="src/ios/libs/libWeiboSDK.a" framework="true" />
         <resource-file src="src/ios/libs/WeiboSDK.bundle" />
 
@@ -55,6 +57,10 @@
         <framework src="ImageIO.framework" weak="true"/>
         <framework src="SystemConfiguration.framework" weak="true" />
         <framework src="Security.framework" weak="true" />
+        <framework src="CoreText.framework" weak="true"/>
+        <framework src="libz.tbd" weak="true"/>
+        <framework src="CoreTelephony.framework" weak="true"/>
+        <framework src="libsqlite3.tbd" weak="true"/>
     </platform>
 
     <platform name="android">

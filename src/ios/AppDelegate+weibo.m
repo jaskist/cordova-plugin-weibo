@@ -8,7 +8,6 @@
 #import "AppDelegate+weibo.h"
 
 #import <objc/runtime.h>
-#import "WXApi.h"
 #import "CDVWeibo.h"
 
 @implementation AppDelegate (weibo)
